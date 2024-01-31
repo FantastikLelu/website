@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+button {
+  font-family: "Comfortaa", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header {
+  margin-left: 240px;
+  margin-top: 29px;
+  margin-right: 240px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+}
+
+header .number,
+header .login,
+header .search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header a {
+  border: 2px solid #e88c58;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  padding: 19px 12px;
+}
+
+header .buttons {
+  display: flex;
+  gap: 80px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  margin: auto;
+  margin-top: 10px;
+
+  max-width: 1360px;
+}
+
+nav ul {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+hr {
+  margin-top: 10px;
+}
+
+main {
+  max-width: 1442px;
+
+  margin: auto;
+}
+
+main h1 {
+  margin-top: 157px;
+
+  color: #e88c58;
+  text-align: center;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+main p {
+  margin: auto;
+  margin-top: 98px;
+
+  max-width: 828px;
+
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tatoo {
+  border-radius: 100px;
+
+  margin-top: 100px;
+}
+
+.tatoo button:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.tatoo:nth-child(3) {
+  background-color: #d9d9d9;
+}
+.tatoo:nth-child(4) {
+  background-color: #4a4747;
+}
+.tatoo:nth-child(5) {
+  background-color: #e88c58;
+}
+
+.tatoo_img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tatoo p {
+  color: black;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tatoo button {
+  border-radius: 50px;
+  border: none;
+
+  background-color: #d07b4b;
+  color: white;
+
+  padding: 26px 40px;
+
+  margin: auto;
+  display: block;
+
+  margin-top: 65px;
+}
+
+.tatoo_style {
+  padding-bottom: 50px;
+}
+
+.tatoo:nth-child(4) .tatoo_style {
+  margin-top: 200px;
+}
+
+.tatoo:nth-child(4) .tatoo_style p {
+  color: white;
+  margin: 0;
+}
+
+.tatoo:nth-child(5) .tatoo_style button {
+  color: #f5874a;
+  background-color: white;
+}
+
+hr:nth-child(5) {
+  margin-top: 160px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1442px;
+
+  margin: auto;
+  margin-top: 35px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+footer h4 {
+  margin-top: 30px;
+
+  color: #e88c58;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+footer p {
+  margin-top: 30px;
+
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.vk {
+  margin-top: 30px;
+
+  display: flex;
+ gap: 20px;
+}
+
+footer a {
+  text-decoration: underline;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
